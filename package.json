@@ -1,0 +1,23 @@
+{
+  "name": "chat-websocket",
+  "version": "1.0.0",
+  "description": "Réalisation d'un chat local utilisant le protocole WebSocket, en Node.js",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FredericCanaud/Chat-WebSocket.git"
+  },
+  "author": "Frédéric Canaud",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FredericCanaud/Chat-WebSocket/issues"
+  },
+  "homepage": "https://github.com/FredericCanaud/Chat-WebSocket#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ws": "^7.2.1"
+  }
+}
